@@ -1,0 +1,20 @@
+
+spring:
+  application:
+    name: gateway-service # 服务名称
+  profiles:
+    active: dev #开发环境，这里是dev
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848 # Nacos地址
+      discovery:
+        service: gateway-service
+        group: DEFAULT_GROUP
+        namespace: dev
+
+
+#  config:
+#    import:
+#      - optional:nacos:${spring.application.name}.${spring.cloud.nacos.config.file-extension}
+server:
+  port: 63010

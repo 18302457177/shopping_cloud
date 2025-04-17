@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xxl-job-core" />
+        <module name="shopping-api-service" />
+        <module name="xxl-job-executor-sample-frameless" />
+        <module name="shopping-web" />
+        <module name="shopping-user-service" />
+        <module name="shopping-util-service" />
+        <module name="shopping-cart-service" />
+        <module name="shopping-goods-service" />
+        <module name="shopping-gateway-services" />
+        <module name="shopping-order-service" />
+        <module name="shopping-media-service" />
+        <module name="xxl-job-admin" />
+        <module name="xxl-job-executor-sample-springboot" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17" />
+  </component>
+  <component name="JavacSettings">
+    <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
+  </component>
+</project>

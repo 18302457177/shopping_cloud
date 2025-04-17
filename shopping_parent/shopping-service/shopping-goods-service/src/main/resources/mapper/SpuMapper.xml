@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.goods.mapper.SpuMapper">
+
+    <resultMap id="BaseResultMap" type="com.goods.domain.Spu">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="storeId" column="store_id" jdbcType="INTEGER"/>
+            <result property="brandId" column="brand_id" jdbcType="INTEGER"/>
+            <result property="name" column="name" jdbcType="VARCHAR"/>
+            <result property="saleStatus" column="sale_status" jdbcType="TINYINT"/>
+            <result property="category3Id" column="category_3_id" jdbcType="INTEGER"/>
+            <result property="img" column="img" jdbcType="VARCHAR"/>
+            <result property="description" column="description" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,store_id,brand_id,
+        name,sale_status,category_3_id,
+        img,description
+    </sql>
+</mapper>

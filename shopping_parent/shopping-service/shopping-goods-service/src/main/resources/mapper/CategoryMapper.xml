@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.goods.mapper.CategoryMapper">
+
+    <resultMap id="BaseResultMap" type="com.goods.domain.Category">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="name" column="name" jdbcType="VARCHAR"/>
+            <result property="parentId" column="parent_id" jdbcType="INTEGER"/>
+            <result property="child" column="child" jdbcType="TINYINT"/>
+            <result property="sort" column="sort" jdbcType="INTEGER"/>
+            <result property="isDeleted" column="is_deleted" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,name,parent_id,
+        child,sort,is_deleted
+    </sql>
+</mapper>

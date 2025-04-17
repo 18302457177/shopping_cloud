@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/shopping_parent/shopping-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_parent/shopping-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_parent/shopping-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_parent/shopping-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_parent/shopping-service/shopping-goods-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_parent/shopping-service/shopping-goods-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_parent/shopping-service/shopping-media-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_parent/shopping-service/shopping-media-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_parent/shopping-service/shopping-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_parent/shopping-service/shopping-user-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_parent/shopping-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_parent/shopping-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_parent/shopping-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_parent/shopping-util/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_parent/shopping-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_parent/shopping-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_parent/shopping_base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_parent/shopping_base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_parent/shopping_goods/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_parent/shopping_goods/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_parent/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

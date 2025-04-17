@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/shopping-api/shopping-api-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-api/shopping-api-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-gateway/shopping-gateway-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-gateway/shopping-gateway-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-gateway/shopping-gateway-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-gateway/shopping-gateway-services/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/shopping-cart-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/shopping-cart-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/shopping-goods-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/shopping-goods-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/shopping-media-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/shopping-media-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/shopping-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/shopping-order-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/shopping-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/shopping-user-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/xxl-job-2.4.0/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/xxl-job-2.4.0/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/xxl-job-2.4.0/xxl-job-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/xxl-job-2.4.0/xxl-job-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/xxl-job-2.4.0/xxl-job-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/xxl-job-2.4.0/xxl-job-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/xxl-job-2.4.0/xxl-job-executor-samples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/xxl-job-2.4.0/xxl-job-executor-samples/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/xxl-job-2.4.0/xxl-job-executor-samples/xxl-job-executor-sample-frameless/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/xxl-job-2.4.0/xxl-job-executor-samples/xxl-job-executor-sample-frameless/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/xxl-job-2.4.0/xxl-job-executor-samples/xxl-job-executor-sample-springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-service/xxl-job-2.4.0/xxl-job-executor-samples/xxl-job-executor-sample-springboot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-util/shopping-util-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-util/shopping-util-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-util/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

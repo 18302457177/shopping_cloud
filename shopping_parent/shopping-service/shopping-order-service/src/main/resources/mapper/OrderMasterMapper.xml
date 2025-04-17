@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.order.mapper.OrderMasterMapper">
+
+    <resultMap id="BaseResultMap" type="com.order.domain.OrderMaster">
+            <id property="orderId" column="order_id" jdbcType="INTEGER"/>
+            <result property="orderSn" column="order_sn" jdbcType="VARCHAR"/>
+            <result property="customerId" column="customer_id" jdbcType="INTEGER"/>
+            <result property="shippingUser" column="shipping_user" jdbcType="VARCHAR"/>
+            <result property="province" column="province" jdbcType="VARCHAR"/>
+            <result property="city" column="city" jdbcType="VARCHAR"/>
+            <result property="district" column="district" jdbcType="VARCHAR"/>
+            <result property="address" column="address" jdbcType="VARCHAR"/>
+            <result property="paymentMethod" column="payment_method" jdbcType="TINYINT"/>
+            <result property="orderMoney" column="order_money" jdbcType="DECIMAL"/>
+            <result property="districtMoney" column="district_money" jdbcType="DECIMAL"/>
+            <result property="shippingMoney" column="shipping_money" jdbcType="DECIMAL"/>
+            <result property="paymentMoney" column="payment_money" jdbcType="DECIMAL"/>
+            <result property="shippingCompName" column="shipping_comp_name" jdbcType="VARCHAR"/>
+            <result property="shippingSn" column="shipping_sn" jdbcType="VARCHAR"/>
+            <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+            <result property="shippingTime" column="shipping_time" jdbcType="TIMESTAMP"/>
+            <result property="payTime" column="pay_time" jdbcType="TIMESTAMP"/>
+            <result property="receiveTime" column="receive_time" jdbcType="TIMESTAMP"/>
+            <result property="orderStatus" column="order_status" jdbcType="TINYINT"/>
+            <result property="orderPoint" column="order_point" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        order_id,order_sn,customer_id,
+        shipping_user,province,city,
+        district,address,payment_method,
+        order_money,district_money,shipping_money,
+        payment_money,shipping_comp_name,shipping_sn,
+        create_time,shipping_time,pay_time,
+        receive_time,order_status,order_point
+    </sql>
+</mapper>

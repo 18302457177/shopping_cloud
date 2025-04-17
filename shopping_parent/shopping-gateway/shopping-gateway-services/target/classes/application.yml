@@ -1,0 +1,40 @@
+spring:
+  main:
+    web-application-type: reactive
+  cloud:
+    gateway:
+      globalcors:
+        cors-configurations:
+          '[/**]': # 匹配所有请求
+            allowedOrigins: "*" # 跨域处理 允许所有的域
+            allowedMethods: # 支持的方法
+              - GET
+              - POST
+              - PUT
+              - DELETE
+        add-to-simple-url-handler-mapping: true
+      routes: # 网关路由配置
+        - id: user-service
+          uri: lb://user-service  # 路由的目标地址 lb就是负载均衡，后面跟服务名称
+          predicates: # 路由断言，也就是判断请求是否符合路由规则的条件
+            - Path=/user/**
+        - id: order-service
+          uri: lb://order-service  # 路由的目标地址 lb就是负载均衡，后面跟服务名称
+          predicates: # 路由断言，也就是判断请求是否符合路由规则的条件
+            - Path=/order/**
+        - id: media-service
+          uri: lb://media-service  # 路由的目标地址 lb就是负载均衡，后面跟服务名称
+          predicates: # 路由断言，也就是判断请求是否符合路由规则的条件
+            - Path=/media/**
+        - id: goods-service
+          uri: lb://goods-service  # 路由的目标地址 lb就是负载均衡，后面跟服务名称
+          predicates: # 路由断言，也就是判断请求是否符合路由规则的条件
+            - Path=/goods/**
+        - id: cart-service
+          uri: lb://cart-service  # 路由的目标地址 lb就是负载均衡，后面跟服务名称
+          predicates: # 路由断言，也就是判断请求是否符合路由规则的条件
+            - Path=/cart/**
+      discovery:
+        locator:
+          enabled: true # 开启自动路由
+          lower-case-service-id: true

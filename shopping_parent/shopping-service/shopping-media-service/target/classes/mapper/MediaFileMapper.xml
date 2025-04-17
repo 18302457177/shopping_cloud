@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.media.mapper.MediaFileMapper">
+
+    <resultMap id="BaseResultMap" type="com.media.domain.MediaFile">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="storeId" column="store_id" jdbcType="INTEGER"/>
+            <result property="fileName" column="file_name" jdbcType="VARCHAR"/>
+            <result property="fileType" column="file_type" jdbcType="VARCHAR"/>
+            <result property="fileId" column="file_id" jdbcType="VARCHAR"/>
+            <result property="uploadTime" column="upload_time" jdbcType="TIMESTAMP"/>
+            <result property="modifyTime" column="modify_time" jdbcType="TIMESTAMP"/>
+            <result property="status" column="status" jdbcType="VARCHAR"/>
+            <result property="storagePath" column="storage_path" jdbcType="VARCHAR"/>
+            <result property="storageDirectory" column="storage_directory" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,store_id,file_name,
+        file_type,file_id,upload_time,
+        modify_time,status,storage_path,
+        storage_directory
+    </sql>
+</mapper>

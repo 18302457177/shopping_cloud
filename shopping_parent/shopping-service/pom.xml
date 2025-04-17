@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.example</groupId>
+        <artifactId>shopping_parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath/>
+    </parent>
+
+    <artifactId>shopping-service</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>shopping-media-service</module>
+        <module>shopping-goods-service</module>
+        <module>shopping-user-service</module>
+        <module>shopping-order-service</module>
+        <module>shopping-cart-service</module>
+    </modules>
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+   <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+
+       <dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-websocket</artifactId>
+       </dependency>
+
+       <dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-security</artifactId>
+       </dependency>
+
+       <dependency>
+           <groupId>com.alibaba.cloud</groupId>
+           <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+       </dependency>
+
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>shopping-api-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>shopping-util-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!--分页插件-->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+            <version>1.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+       <!--解决：Did you forget to include spring-cloud-starter-loadbalancer?-->
+       <dependency>
+           <groupId>org.springframework.cloud</groupId>
+           <artifactId>spring-cloud-loadbalancer</artifactId>
+       </dependency>
+
+       <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.32</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-stream-rabbit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+            <version>2021.0.5.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+            <version>2021.0.5.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bootstrap</artifactId>
+            <version>3.0.3</version>
+        </dependency>
+    </dependencies>
+</project>
